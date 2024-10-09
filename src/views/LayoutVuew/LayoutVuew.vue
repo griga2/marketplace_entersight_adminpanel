@@ -61,14 +61,15 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    top: 63px;
     width: 260px;
-    height: 649px;
+    height: 90%;
     justify-content: center;
 }
 .tovari-label{
     position: absolute;
     left: 99px;
-    top: 120px;
+    top: 30px;
 }
 
 .top-bar{
@@ -78,7 +79,7 @@ main{
     flex-direction: column;
     align-items: center;
     left: 371px;
-    top: 145px;
+    top: 63px;
     position: absolute;
     width: 1062px;
     height: 65px;
