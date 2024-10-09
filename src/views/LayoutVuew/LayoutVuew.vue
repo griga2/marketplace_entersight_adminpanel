@@ -84,6 +84,7 @@ main{
     width: 1062px;
     height: 65px;
 }
+
 .table{
     background-color: #FFFFFF;
     justify-content: center;
