@@ -39,7 +39,7 @@
     flex-direction: column;
     align-items: center;
     width: 82px;
-    height: 100%;
+    height: 1020px;
     justify-content: center;
 }
 
@@ -81,7 +81,7 @@ main{
     left: 371px;
     top: 63px;
     position: absolute;
-    width: 1062px;
+    width: 80%;
     height: 65px;
 }
 
@@ -93,8 +93,8 @@ main{
     align-items: center;
     position: absolute;
     left: 371px;
-    top: 222px;
-    width: 1062px;
-    height: 573px;
+    top: 140px;
+    width: 80%;
+    height: 82%;
 }
 </style>
