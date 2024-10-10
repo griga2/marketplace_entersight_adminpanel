@@ -8,11 +8,11 @@
     <main>
         layout
         <section class="left-bar">
-            <p>гриша хуй</p>
+            
         </section>
         
         <section class="goods-groups">
-            <p>писька</p>
+            
         </section>
 
         <section class="tovari-label">
@@ -20,7 +20,9 @@
         </section>
 
         <section class="top-bar">
-
+            <button class="button">Основное</button>
+            <button class="button">Ozon</button>
+            <button class="button">YandexMarket</button>
         </section>
 
         <section class="table">
@@ -33,10 +35,10 @@
 
 .left-bar{
     background-color: #FFFFFF;
-    position: absolute;
+    position: fixed;
     left: 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 82px;
     height: 1020px;
@@ -56,7 +58,7 @@ main{
     background-color: #FFFFFF;
     border: 1px;
     border-color: #E1E1E1;
-    position: absolute;
+    position: fixed;
     left: 99px;
     display: flex;
     flex-direction: column;
@@ -67,22 +69,24 @@ main{
     justify-content: center;
 }
 .tovari-label{
-    position: absolute;
+    position: fixed;
     left: 99px;
     top: 30px;
 }
 
 .top-bar{
+
     background-color: #FFFFFF;
     justify-content: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     left: 371px;
     top: 63px;
-    position: absolute;
+    position: fixed;
     width: 80%;
     height: 65px;
+    
 }
 
 .table{
@@ -91,10 +95,24 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
+    position: fixed;
     left: 371px;
     top: 140px;
     width: 80%;
     height: 82%;
 }
+
+.top-bar-text{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.button{
+    color: black;
+    text-decoration:underline;
+    display:inline-block;
+    
+}
+
 </style>
