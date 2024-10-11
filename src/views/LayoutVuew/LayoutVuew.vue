@@ -12,7 +12,8 @@
         </section>
         
         <section class="goods-groups">
-            
+            <p class="goods-groups-text">Группы товаров</p>
+
         </section>
 
         <section class="tovari-label">
@@ -105,7 +106,6 @@ main{
 .top-bar-text{
     display: flex;
     flex-direction: row;
-    
 }
 
 .button{
@@ -115,4 +115,8 @@ main{
     
 }
 
+.goods-groups-text{
+    color: black;
+    top: 5%;
+}
 </style>
