@@ -12,7 +12,7 @@
         </section>
         
         <section class="goods-groups">
-            <p class="goods-groups-text">Группы товаров</p>
+            <span class="goods-groups-text">Группы товаров</span>
 
         </section>
 
@@ -39,7 +39,7 @@
     position: fixed;
     left: 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 82px;
     height: 1020px;
@@ -110,8 +110,7 @@ main{
 
 .button{
     color: black;
-    text-decoration:underline;
-    display:inline-block;
+    left: 0px;
     
 }
 
