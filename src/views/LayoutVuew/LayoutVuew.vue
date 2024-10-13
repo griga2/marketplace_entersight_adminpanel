@@ -4,7 +4,6 @@
 </script>
 
 <template>
-   
     <main>
         layout
         <section class="left-bar">
@@ -69,6 +68,7 @@ main{
     height: 90%;
     justify-content: center;
 }
+
 .tovari-label{
     position: fixed;
     left: 99px;
