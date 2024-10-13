@@ -18,7 +18,7 @@
         </section>
 
         <section class="tovari-label">
-            <p>Классификатор товаров</p>
+            <p class="">Классификатор товаров</p>
         </section>
 
         <section class="top-bar">
@@ -35,6 +35,7 @@
 
 <style scoped>
 
+
 .left-bar{
     background-color: #FFFFFF;
     position: fixed;
@@ -42,7 +43,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 82px;
+    width: 4.5%;
     height: 100%;
     justify-content: center;
 }
