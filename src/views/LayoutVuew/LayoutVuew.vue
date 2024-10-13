@@ -6,9 +6,11 @@
 <template>
    
     <main>
-        layout
         <section class="left-bar">
-            
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.86328 4.24213C1.86328 3.61119 2.11392 3.0061 2.56006 2.55996C3.00619 2.11383 3.61129 1.86319 4.24222 1.86319H13.758C14.3889 1.86319 14.994 2.11383 15.4401 2.55996C15.8863 3.0061 16.1369 3.61119 16.1369 4.24213V13.7579C16.1369 14.3888 15.8863 14.9939 15.4401 15.44C14.994 15.8862 14.3889 16.1368 13.758 16.1368H4.24222C3.61129 16.1368 3.00619 15.8862 2.56006 15.44C2.11392 14.9939 1.86328 14.3888 1.86328 13.7579V4.24213Z" stroke="#313131" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4.60742 13.5174C4.60742 12.8417 5.15518 12.2939 5.83088 12.2939H12.1677C12.8434 12.2939 13.3912 12.8417 13.3912 13.5174C13.3912 13.63 13.2999 13.7213 13.1873 13.7213H4.81133C4.69871 13.7213 4.60742 13.63 4.60742 13.5174Z" fill="#313131"/>
+            </svg>
         </section>
         
         <section class="goods-groups">
@@ -21,9 +23,9 @@
         </section>
 
         <section class="top-bar">
-            <button class="button">Основное</button>
-            <button class="button">Ozon</button>
-            <button class="button">YandexMarket</button>
+            <v-btn>Основное</v-btn>
+            <v-btn>Ozon</v-btn>
+            <v-btn>YandexMarket</v-btn>
         </section>
 
         <section class="table">
@@ -42,7 +44,7 @@
     flex-direction: column;
     align-items: center;
     width: 82px;
-    height: 1020px;
+    height: 100%;
     justify-content: center;
 }
 
@@ -85,7 +87,7 @@ main{
     left: 371px;
     top: 63px;
     position: fixed;
-    width: 80%;
+    width: 100%;
     height: 65px;
     
 }
@@ -99,7 +101,7 @@ main{
     position: fixed;
     left: 371px;
     top: 140px;
-    width: 80%;
+    width: 100%;
     height: 82%;
 }
 
