@@ -1,0 +1,33 @@
+<script>
+
+</script>
+
+<template>
+
+        <section class="top-bar">
+            <v-btn>Основное</v-btn>
+            <v-btn>Ozon</v-btn>
+            <v-btn>YandexMarket</v-btn>
+        </section>
+
+</template>
+
+<style scoped>
+
+.top-bar{
+
+background-color: #FFFFFF;
+justify-content: center;
+display: flex;
+flex-direction: row;
+align-items: center;
+left: 10%;
+top: 63px;
+position: fixed;
+width: 80%;
+width: 100%;
+height: 65px;
+
+}
+
+</style>

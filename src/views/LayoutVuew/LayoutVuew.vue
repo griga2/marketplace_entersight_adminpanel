@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import LeftBat from './components/LeftBat.vue';
-
+import LeftBat from "./components/LeftBat.vue";
+import TopBar from "./components/TopBar.vue";
+import Tovari from "./components/Tovari.vue";
 </script>
 
 <template>
@@ -10,6 +11,10 @@ import LeftBat from './components/LeftBat.vue';
             <LeftBat>
 
             </LeftBat>
+            <TopBar>
+
+            </TopBar>
+
         </nav>
         
         <head>
@@ -18,9 +23,13 @@ import LeftBat from './components/LeftBat.vue';
 
 
         <main>
-            <RouterView></RouterView>
+            <RouterView>
+                <Tovari>
+
+                </Tovari>
+            </RouterView>
         </main>
-       
+        
 
         <section class="table">
 

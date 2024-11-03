@@ -19,13 +19,14 @@
 
 .left-bar{
     background-color: #FFFFFF;
-    position: fixed;
-    left: 0px;
+    justify-content: center;
     display: flex;
+    position: fixed;
     flex-direction: column;
     align-items: center;
+    left: 0px;
     width: 4.5%;
     height: 100%;
-    justify-content: center;
+    
 }
 </style>
