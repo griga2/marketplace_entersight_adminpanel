@@ -21,12 +21,11 @@ justify-content: center;
 display: flex;
 flex-direction: row;
 align-items: center;
-left: 10%;
-top: 63px;
+left: 371px;
+top: 7%;
 position: fixed;
-width: 80%;
 width: 100%;
-height: 65px;
+height: 7%;
 
 }
 

@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 63px;
+    top: 7%;
     width: 260px;
     height: 90%;
     justify-content: center;
