@@ -24,8 +24,9 @@
     position: fixed;
     flex-direction: column;
     align-items: center;
-    left: 0px;
+    left: 0%;
     width: 4.5%;
+    
     height: 100%;
     
 }
