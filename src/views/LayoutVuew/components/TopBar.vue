@@ -16,12 +16,12 @@
 
 .top-bar{
 
-background-color: #FFFFFF;
+background-color: #d6cbcbee;
 justify-content: center;
 display: flex;
 flex-direction: row;
 align-items: center;
-left: 371px;
+left: 22.5%;
 top: 7%;
 position: fixed;
 width: 100%;

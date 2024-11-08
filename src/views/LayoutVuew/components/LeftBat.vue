@@ -18,7 +18,7 @@
 
 
 .left-bar{
-    background-color: #FFFFFF;
+    background-color: #d6cbcbee;
     justify-content: center;
     display: flex;
     position: fixed;

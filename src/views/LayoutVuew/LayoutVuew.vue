@@ -8,11 +8,11 @@ import Table from "./components/Table.vue";
 
 <template>
     <section class="main">
+        <LeftBar>
 
+        </LeftBar>
         <nav>
-            <LeftBar>
-
-            </LeftBar>
+            
             <TopBar>
 
             </TopBar>
@@ -78,6 +78,6 @@ import Table from "./components/Table.vue";
 
 .goods-groups-text{
     color: black;
-    top: 5%;
+    top: 100%;
 }
 </style>
