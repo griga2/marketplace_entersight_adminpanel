@@ -3,7 +3,10 @@
 </script>
 
 <template>
-
+        <nav>
+            <TopBar></TopBar>
+        </nav>
+        
         <section class="goods-groups">
             
             <span class="goods-groups-text">Группы товаров</span>
