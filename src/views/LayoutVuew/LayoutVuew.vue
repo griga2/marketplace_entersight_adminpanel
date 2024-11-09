@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import LeftBar from "./components/LeftBat.vue";
 import TopBar from "./components/TopBar.vue";
-import Tovari from "./components/Tovari.vue";
+import Tovari from "./components/Products.vue";
 import Table from "./components/Table.vue";
 
 </script>
