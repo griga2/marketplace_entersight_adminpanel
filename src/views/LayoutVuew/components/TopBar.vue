@@ -16,7 +16,7 @@
 
 .top-bar{
 
-background-color: #d6cbcbee;
+background-color: #ffffff;
 justify-content: center;
 display: flex;
 flex-direction: row;
