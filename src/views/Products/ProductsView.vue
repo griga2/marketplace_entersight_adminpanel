@@ -18,7 +18,7 @@
 <style scoped>
 
 .goods-groups{
-    background-color: #d6cbcbee;
+    background-color: #ffffff;
     border: 1px;
     border-color: #E1E1E1;
     position: fixed;
