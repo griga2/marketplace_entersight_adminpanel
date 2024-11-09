@@ -1,34 +1,33 @@
 <script setup lang="ts">
 import LeftBar from "./components/LeftBat.vue";
+
+import Products from "../Products/ProductsView.vue";
 import TopBar from "./components/TopBar.vue";
 import Tovari from "./components/Products.vue";
-import Table from "./components/Table.vue";
+import Table from "../Products/components/Table.vue";
 
 </script>
 
 <template>
     <section class="main">
+
+        
+        <header>
+            <span>
+                хлебные крошки
+            </span>
+        </header>
+
         <LeftBar>
 
-        </LeftBar>
-        <nav>
-            
-            <TopBar>
-
-            </TopBar>
-
-        </nav>
-        
-        <head>
-            <!-- //хлебные крошки -->
-        </head>
+    </LeftBar>
 
 
         <main>
             <RouterView>
-                <Tovari>
+                <Products>
 
-                </Tovari>
+                </Products>
             </RouterView>
         </main>
         
