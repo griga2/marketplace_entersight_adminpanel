@@ -2,7 +2,7 @@
 import LeftBar from "./components/LeftBat.vue";
 
 import Products from "../Products/ProductsView.vue";
-import TopBar from "./components/TopBar.vue";
+
 import Tovari from "./components/Products.vue";
 import Table from "../Products/components/Table.vue";
 
@@ -54,6 +54,7 @@ import Table from "../Products/components/Table.vue";
     width: 100%;
     padding: 0px;
     margin: 0px;
+    
 }
 
 

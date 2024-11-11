@@ -24,6 +24,7 @@
     top: 15%;
     width: 100%;
     height: 81.9%;
+    border-radius: 5px;
 }
 
 </style>

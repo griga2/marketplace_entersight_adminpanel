@@ -1,5 +1,5 @@
-<script>
-
+<script setup lang="ts">
+import TopBar from "../Products/components/TopBar.vue";
 </script>
 
 <template>
@@ -30,6 +30,7 @@
     width: 17%;
     height: 90%;
     justify-content: center;
+    border-radius: 5px;
 }
 
 .goods-groups-text{

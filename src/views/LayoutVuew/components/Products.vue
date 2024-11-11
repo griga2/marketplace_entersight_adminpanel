@@ -30,6 +30,7 @@
     width: 17%;
     height: 90%;
     justify-content: center;
+    
 }
 
 .goods-groups-text{
