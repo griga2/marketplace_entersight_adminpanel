@@ -36,5 +36,6 @@ import TopBar from "../Products/components/TopBar.vue";
 .goods-groups-text{
     color: black;
     top: 100%;
+    
 }
 </style>
