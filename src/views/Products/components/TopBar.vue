@@ -5,14 +5,20 @@
 <template>
 
         <section class="top-bar">
+            <section class="left">
             <v-btn>Основное</v-btn>
             <v-btn>Ozon</v-btn>
             <v-btn>YandexMarket</v-btn>
+            </section>
         </section>
 
 </template>
 
 <style scoped>
+
+.left{
+    margin-right: 80%;
+}
 
 .top-bar{
 

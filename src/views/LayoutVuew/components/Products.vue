@@ -8,14 +8,18 @@
         </nav>
         
         <section class="goods-groups">
-            
+            <section class="goods-top">
             <span class="goods-groups-text">Группы товаров</span>
-
+            </section>
         </section>
 
 </template>
 
 <style scoped>
+
+.goods-top{
+    margin-top: 100%;
+}
 
 .goods-groups{
     background-color: #ffffff;
@@ -35,6 +39,7 @@
 
 .goods-groups-text{
     color: black;
-    top: 100%;
+    
+    
 }
 </style>
