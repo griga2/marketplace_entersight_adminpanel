@@ -8,6 +8,12 @@ import ProductsView from '../views/Products/ProductsView.vue';
         {
           name: 'products', path: '/products', component: ProductsView
         },
+        {
+          name: 'preserves', path:'products/preserves', component: LayoutView
+        },
+        {
+          name: 'non-alcohol', path: '/products/non-alcohol', component: ProductsView
+        },
       ]
     },
     {name: 'auth', path: '/auth', component: LayoutView}

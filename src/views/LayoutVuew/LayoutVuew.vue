@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import LeftBar from "./components/LeftBat.vue";
 
-import Products from "../Products/ProductsView.vue";
+import ProductsView from "../Products/ProductsView.vue";
 
-//import Tovari from "./components/Products.vue";
+import Products from "../LayoutVuew/components/Products.vue"
 import Table from "../Products/components/Table.vue";
 
 </script>
@@ -20,14 +20,17 @@ import Table from "../Products/components/Table.vue";
 
         <LeftBar>
 
-    </LeftBar>
-
+        </LeftBar>
+       
 
         <main>
+            <Products>
+            
+            </Products>
             <RouterView>
-                <Products>
+                <ProductsView>
 
-                </Products>
+                </ProductsView>
             </RouterView>
         </main>
         

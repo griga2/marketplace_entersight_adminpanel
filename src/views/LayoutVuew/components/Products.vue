@@ -3,10 +3,8 @@
 </script>
 
 <template>
-        <nav>
-            <TopBar></TopBar>
-        </nav>
         
+        <span class="top-text">Классификатор товаров</span>
         <section class="goods-groups">
             <section class="goods-top">
             <span class="goods-groups-text">Группы товаров</span>
@@ -17,8 +15,16 @@
 
 <style scoped>
 
+.top-text{
+    top: 100%;
+    font-family: Gilroy_Regular;
+    font-size: 32px;
+    color: brown;
+}
+
 .goods-top{
-    margin-top: 100%;
+    margin-bottom: 750px;
+    margin-right: 40%;
 }
 
 .goods-groups{
@@ -34,12 +40,12 @@
     width: 17%;
     height: 90%;
     justify-content: center;
-    
+    border-radius: 5px;
 }
 
 .goods-groups-text{
     color: black;
-    
-    
+    font-family: Gilroy_Regular;
+    font-size: 20px;
 }
 </style>
