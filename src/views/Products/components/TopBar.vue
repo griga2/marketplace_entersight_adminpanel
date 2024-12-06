@@ -22,17 +22,19 @@
 
 .top-bar{
 
-background-color: #ffffff;
-justify-content: center;
-display: flex;
-flex-direction: row;
-align-items: center;
-left: 22.5%;
-top: 7%;
-position: fixed;
-width: 100%;
-height: 7%;
-border-radius: 5px;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #E1E1E1;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 22.5%;
+    top: 7%;
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    border-radius: 5px;
 }
 
 </style>

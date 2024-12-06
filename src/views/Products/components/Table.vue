@@ -15,6 +15,8 @@
 
 .table{
     background-color: #ffffff;
+    border: solid;
+    border-color: #E1E1E1;
     justify-content: center;
     display: flex;
     flex-direction: column;

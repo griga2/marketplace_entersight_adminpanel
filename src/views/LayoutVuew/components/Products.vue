@@ -3,33 +3,45 @@
 </script>
 
 <template>
+     
         
-        <span class="top-text">Классификатор товаров</span>
         <section class="goods-groups">
             <section class="goods-top">
             <span class="goods-groups-text">Группы товаров</span>
             </section>
+            <div class="line"></div>
+            
+           
+            
+            
         </section>
 
 </template>
 
 <style scoped>
 
+.line{
+    width: 100%;
+    border-bottom: solid #E1E1E1;
+    margin: 4% 0; /* Отступы между заголовком и линией */
+}
+
+
 .top-text{
-    top: 100%;
     font-family: Gilroy_Regular;
-    font-size: 32px;
-    color: brown;
+    font-size: 26px;
+    color: black;
+    
 }
 
 .goods-top{
-    margin-bottom: 750px;
+    margin-top: 5%;
     margin-right: 40%;
 }
 
 .goods-groups{
     background-color: #ffffff;
-    border: 1px;
+    border: solid;
     border-color: #E1E1E1;
     position: fixed;
     left: 5%;
@@ -39,7 +51,7 @@
     top: 7%;
     width: 17%;
     height: 90%;
-    justify-content: center;
+    justify-content: flex-start;
     border-radius: 5px;
 }
 
@@ -47,5 +59,6 @@
     color: black;
     font-family: Gilroy_Regular;
     font-size: 20px;
+    
 }
 </style>

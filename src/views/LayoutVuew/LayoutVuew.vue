@@ -3,7 +3,8 @@ import LeftBar from "./components/LeftBat.vue";
 
 import ProductsView from "../Products/ProductsView.vue";
 
-import Products from "../LayoutVuew/components/Products.vue"
+import Products from "../LayoutVuew/components/Products.vue";
+
 import Table from "../Products/components/Table.vue";
 
 </script>
@@ -33,13 +34,11 @@ import Table from "../Products/components/Table.vue";
                 </ProductsView>
             </RouterView>
         </main>
-        
-
         <section>
-            <Table>
-                
-            </Table>
+            <Table></Table>
         </section>
+
+       
     </section>
 
 </template>
@@ -62,25 +61,5 @@ import Table from "../Products/components/Table.vue";
 
 
 
-.tovari-label{
-    position: fixed;
-    left: 99px;
-    top: 30px;
-}
 
-.top-bar-text{
-    display: flex;
-    flex-direction: row;
-}
-
-.button{
-    color: black;
-    left: 0px;
-    
-}
-
-.goods-groups-text{
-    color: black;
-    top: 100%;
-}
 </style>

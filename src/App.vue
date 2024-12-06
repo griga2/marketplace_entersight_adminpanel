@@ -19,6 +19,9 @@
 .logo.vue:hover {
   filter: drop-shadow(0 0 2em #42b883aa);
 }
+:global(body){
+  background-color: #F8F8F9;
+}
 
 
 </style>
