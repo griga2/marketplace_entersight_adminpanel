@@ -1,5 +1,10 @@
-<script>
+<script setup lang="ts">
+import { useRouter } from 'vue-router';
+const router = useRouter();
 
+const goTo = (group: string) => {
+    router.push({ name: group });
+};
 </script>
 
 <template>
@@ -10,9 +15,11 @@
             <span class="goods-groups-text">Группы товаров</span>
             </section>
             <div class="line"></div>
-            
+            <ul>
+            <li @click="goTo('preserves')">1. Консервы</li>
+            <li @click="goTo('non-alcohol')">2. Безалкогольные напитки</li>
+            </ul>
            
-            
             
         </section>
 
@@ -60,5 +67,24 @@
     font-family: Gilroy_Regular;
     font-size: 20px;
     
+}
+ul {
+    margin-right: 30%;
+    list-style-type: none;
+}
+
+li {
+    cursor: pointer;
+    padding: 10px;
+    background: #ffffff;
+    margin: 5px ;
+    font-family: Gilroy_Regular;
+    font-size: 14px;
+    text-align: left;
+    color: black;
+}
+
+li:hover {
+    background: #e0e0e0;
 }
 </style>

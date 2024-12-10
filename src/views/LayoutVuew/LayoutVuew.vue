@@ -7,6 +7,7 @@ import Products from "../LayoutVuew/components/Products.vue";
 
 import Table from "../Products/components/Table.vue";
 
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
@@ -58,8 +59,6 @@ import Table from "../Products/components/Table.vue";
     margin: 0px;
     color: #F8F8F9;
 }
-
-
 
 
 </style>
