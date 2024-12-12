@@ -4,9 +4,3 @@
         <!-- Здесь ваша таблица -->
     </section>
 </template>
-
-<style scoped>
-.table {
-    /* Стили вашей таблицы */
-}
-</style>

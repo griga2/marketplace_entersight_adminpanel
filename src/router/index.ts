@@ -6,9 +6,9 @@ import NonAlcoholTable from "../views/Products/Tables/NonAlcoholTable.vue";
 
   const routes = [
     {name: 'layout', path: '/', component: LayoutView,
-      child: [
+      children: [
         {
-          name: 'products', path: '/products', component: ProductsView
+          name: 'products', path: 'products', component: ProductsView
         },
         {
           name: 'preserves', path:'products/preserves', component: PreservesTable

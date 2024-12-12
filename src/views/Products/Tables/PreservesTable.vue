@@ -6,7 +6,5 @@
 </template>
 
 <style scoped>
-.table {
-    /* Стили вашей таблицы */
-}
+
 </style>

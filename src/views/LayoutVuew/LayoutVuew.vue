@@ -26,18 +26,17 @@ import { RouterView } from 'vue-router';
        
 
         <main>
-            <Products>
+            <Products></Products>
             
-            </Products>
-            <RouterView>
-                <ProductsView>
-
-                </ProductsView>
-            </RouterView>
+            <ProductsView>
+                
+            </ProductsView>
+            
+            <section>
+            <Table><RouterView/></Table>
+            </section>
         </main>
-        <section>
-            <Table></Table>
-        </section>
+        
 
        
     </section>

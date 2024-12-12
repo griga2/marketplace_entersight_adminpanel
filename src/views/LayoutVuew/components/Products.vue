@@ -19,7 +19,7 @@ const goTo = (group: string) => {
             <li @click="goTo('preserves')">1. Консервы</li>
             <li @click="goTo('non-alcohol')">2. Безалкогольные напитки</li>
             </ul>
-           
+            
             
         </section>
 
