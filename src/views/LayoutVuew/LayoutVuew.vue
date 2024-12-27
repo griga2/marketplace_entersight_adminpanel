@@ -33,7 +33,8 @@ import { RouterView } from 'vue-router';
             </ProductsView>
             
             <section>
-            <Table><RouterView/></Table>
+            <Table></Table>
+            
             </section>
         </main>
         

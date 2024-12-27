@@ -6,7 +6,7 @@
 <template>
 
         <section class="table">
-          
+            <RouterView/>   
         </section>
 
 </template>
