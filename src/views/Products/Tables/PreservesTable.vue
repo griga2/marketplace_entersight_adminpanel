@@ -1,20 +1,28 @@
 <template>
-    <v-card>
+
+    <v-card fluid style="width: 100%;">
+      
       <template v-slot:text>
-        <v-text-field
+        
+        <v-text-field 
+          max-width="500"
           v-model="search"
           label="Search"
           prepend-inner-icon="mdi-magnify"
           variant="outlined"
           hide-details
           single-line
+          
         ></v-text-field>
       </template>
   
       <v-data-table
+       
         :headers="headers"
+        
         :items="desserts"
         :search="search"
+
       ></v-data-table>
     </v-card>
   </template>
@@ -28,14 +36,14 @@
             {
               align: 'start',
               key: 'name',
-              sortable: false,
-              title: 'Dessert (100g serving)',
+              sortable: true,
+              title: 'Наименование',
             },
-            { key: 'calories', title: 'Calories' },
-            { key: 'fat', title: 'Fat (g)' },
-            { key: 'carbs', title: 'Carbs (g)' },
-            { key: 'protein', title: 'Protein (g)' },
-            { key: 'iron', title: 'Iron (%)' },
+            { key: 'calories', title: 'Остаток' },
+            { key: 'fat', title: 'фцв' },
+            { key: 'carbs', title: 'Закуп. цена' },
+            { key: 'protein', title: 'Роз. цена' },
+            { key: 'iron', title: 'Торг. наценка' },
           ],
           desserts: [
             {
@@ -124,3 +132,11 @@
     }
   </script>
   
+  <style scoped>
+
+.table{
+    width: 100%;
+    
+}
+
+  </style>

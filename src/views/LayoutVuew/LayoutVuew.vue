@@ -33,8 +33,7 @@ import { RouterView } from 'vue-router';
             </ProductsView>
             
             <section>
-            <Table></Table>
-            
+            <Table><RouterView/></Table>
             </section>
         </main>
         
@@ -45,9 +44,6 @@ import { RouterView } from 'vue-router';
 </template>
 
 <style scoped>
-
-
-
 
 .main{
     display: flex;
