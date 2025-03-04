@@ -24,7 +24,7 @@
     position: fixed;
     left: 22.5%;
     top: 15%;
-    width: 100%;
+    width: 77.5%;
     height: 81.9%;
     border-radius: 5px;
 }

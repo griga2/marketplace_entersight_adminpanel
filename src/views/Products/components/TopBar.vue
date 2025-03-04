@@ -17,7 +17,7 @@
 <style scoped>
 
 .left{
-    margin-right: 80%;
+    margin-right: 70%;
 }
 
 .top-bar{
@@ -32,7 +32,7 @@
     left: 22.5%;
     top: 7%;
     position: fixed;
-    width: 100%;
+    width: 77.5%;
     height: 7%;
     border-radius: 5px;
 }

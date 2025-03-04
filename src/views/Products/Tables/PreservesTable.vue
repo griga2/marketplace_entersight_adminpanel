@@ -1,11 +1,12 @@
-<template>
+<template class="table">
 
     <v-card fluid style="width: 100%;">
       
       <template v-slot:text>
         
         <v-text-field 
-          max-width="500"
+          max-width="800"
+          height="200"
           v-model="search"
           label="Search"
           prepend-inner-icon="mdi-magnify"
@@ -17,9 +18,8 @@
       </template>
   
       <v-data-table
-       
+        show-select
         :headers="headers"
-        
         :items="desserts"
         :search="search"
 
@@ -32,6 +32,7 @@
       data() {
         return {
           search: '',
+          selected: [],
           headers: [
             {
               align: 'start',
@@ -135,8 +136,7 @@
   <style scoped>
 
 .table{
-    width: 100%;
-    
+    height: 100%;
 }
 
   </style>
