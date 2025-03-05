@@ -8,7 +8,7 @@
           max-width="800"
           height="200"
           v-model="search"
-          label="Search"
+          label="Поиск товаров по названию, коду или поставщику"
           prepend-inner-icon="mdi-magnify"
           variant="outlined"
           hide-details
@@ -32,7 +32,7 @@
       data() {
         return {
           search: '',
-          selected: [],
+          
           headers: [
             {
               align: 'start',
